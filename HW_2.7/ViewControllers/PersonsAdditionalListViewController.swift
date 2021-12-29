@@ -38,7 +38,7 @@ class PersonsAdditionalListViewController: UITableViewController {
         var content = cell.defaultContentConfiguration()
         if indexPath.row == 0 {
             content.text = ("\(person.phone)")
-            //картинку добавить
+            // ?? Картинки
             cell.contentConfiguration = content
         } else {
             content.text = ("\(person.email)")
